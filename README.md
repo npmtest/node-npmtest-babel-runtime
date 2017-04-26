@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-runtime/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-babel-runtime/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-runtime/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-runtime/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-runtime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-runtime/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-babel-runtime/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-babel-runtime/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-runtime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-runtime/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-babel-runtime/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-runtime/build/coverage.html/index.html)
 
@@ -35,20 +35,50 @@
 ```json
 
 {
-    "name": "babel-runtime",
-    "version": "6.23.0",
-    "description": "babel selfContained runtime",
-    "license": "MIT",
-    "repository": "https://github.com/babel/babel/tree/master/packages/babel-runtime",
-    "author": "Sebastian McKenzie <sebmck@gmail.com>",
+    "author": {
+        "name": "Sebastian McKenzie"
+    },
     "dependencies": {
         "core-js": "^2.4.0",
         "regenerator-runtime": "^0.10.0"
     },
+    "description": "babel selfContained runtime",
     "devDependencies": {
         "babel-helpers": "^6.22.0",
         "babel-plugin-transform-runtime": "^6.23.0"
-    }
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "0a9489f144de70efb3ce4300accdb329e2fc543b",
+        "tarball": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.23.0.tgz"
+    },
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "amasad"
+        },
+        {
+            "name": "hzoo"
+        },
+        {
+            "name": "jmm"
+        },
+        {
+            "name": "loganfsmyth"
+        },
+        {
+            "name": "sebmck"
+        }
+    ],
+    "name": "babel-runtime",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/babel/babel/tree/master/packages/babel-runtime"
+    },
+    "scripts": {},
+    "version": "6.23.0",
+    "bin": {}
 }
 ```
 
